@@ -1,0 +1,264 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050512;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(159, 122, 234, 0.7);
+  border-radius: 1px;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.card-wrapper {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease, box-shadow 0.3s ease, border 0.3s ease;
+  background-color: #21092d;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-wrapper:hover .card {
+  box-shadow: 0 0 40px rgba(159, 122, 234, 0.7), 0 0 70px rgba(255, 0, 255, 0.5);
+  border: none;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid transparent;
+  z-index: 1;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover::before {
+  border-color: rgba(159, 122, 234, 0.8);
+  box-shadow: 0 0 15px rgba(159, 122, 234, 0.8), 0 0 30px rgba(255, 0, 255, 0.6);
+  background: linear-gradient(
+    to bottom right,
+    rgba(159, 122, 234, 0.2),
+    rgba(255, 0, 255, 0.2)
+  );
+  transition: all 0.3s ease;
+}
+
+.card-content {
+  padding: 20px;
+  color: #f7fafc;
+  transform: translateZ(30px);
+  position: relative;
+  z-index: 2;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f7fafc;
+}
+
+.card-wrapper:hover .card::before {
+  box-shadow: 0 0 40px rgba(159, 122, 234, 0.9), 0 0 70px rgba(255, 0, 255, 0.7);
+  border-color: rgba(159, 122, 234, 0.8);
+}
+.video-player-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+select {
+  background-color: #2a0736;
+  color: #e5e5e5;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #6b4f99;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+select:hover {
+  background-color: #3b0c56;
+}
+
+select:focus {
+  outline: none;
+  border-color: #9b59b6;
+  box-shadow: 0 0 5px rgba(155, 89, 182, 0.7);
+}
+
+pre {
+  background-color: #2a0736;
+  color: #e5e5e5;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+pre:hover {
+  background-color: #3b0c56;
+}
+
+.video-player-wrapper {
+  transition: all 0.3s ease-in-out;
+}
+
+.video-player-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+  font-size: 1.1rem;
+  color: #e5e5e5;
+}
+
+ul li a {
+  transition: color 0.3s ease;
+}
+
+ul li a:hover {
+  color: #9b59b6;
+  text-decoration: underline;
+}
+
+/* Custom styling for headings */
+h1,
+h2 {
+  color: #e5e5e5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.text-gray-100 {
+  color: #e5e5e5;
+}
+
+.text-gray-200 {
+  color: #d1d1d1;
+}
+
+.bg-purple-900 {
+  background-color: #6b4f99;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(180deg, #100319, #2a0736);
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+#language-select:hover {
+  background-color: #6b3f9f !important;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  background-color: transparent !important;
+  color: #f0f0f0 !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #f0f0f0 !important;
+}
+
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus {
+  border-bottom: 2px solid #7c3aed !important;
+  box-shadow: none !important;
+}
+
+input,
+textarea {
+  color: #f0f0f0;
+  border: none;
+  background: transparent;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #7c3aed;
+}
+
+.card {
+  will-change: transform;
+  transition: transform 0.2s ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
