@@ -5,7 +5,13 @@
 The platform caters to learners in the fields of **Software Engineering**, **Artificial Intelligence**, and **Web Development**.
 
 ---
+## Live Link
 
+```bash
+https://mantikyolu.netlify.app/
+```
+
+---
 ## Features
 
 - **Coding Challenges**: Access a wide range of coding challenges in various programming languages to improve problem-solving skills.
