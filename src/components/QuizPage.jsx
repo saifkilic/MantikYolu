@@ -2,19 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
 
-const Alert = ({ message, onClose }) => (
-  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-    <div className="bg-[#281236] text-gray-200 rounded-lg p-6 shadow-2xl transform scale-95 transition-transform duration-300 ease-out">
-      <p className="text-lg mb-4">{message}</p>
-      <button
-        onClick={onClose}
-        className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg transition duration-200"
-      >
-        OK
-      </button>
-    </div>
-  </div>
-);
 
 const QuizPage = () => {
   const [tilts, setTilts] = useState({});

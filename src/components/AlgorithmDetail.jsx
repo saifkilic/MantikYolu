@@ -109,6 +109,7 @@ const AlgorithmDetail = () => {
         ))}
       </ul>
     </div>
+
   );
 };
 

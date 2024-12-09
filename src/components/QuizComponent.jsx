@@ -223,10 +223,10 @@ const QuizComponent = () => {
             </p>
             <p className="text-sm text-gray-400 mb-4">{getScoreMessage()}</p>
             <button
-              onClick={() => window.location.reload()}
+              onClick={() => (window.location.href = "/quizpage")}
               className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg transition duration-200"
             >
-              Try Again
+              Go Back
             </button>
           </div>
         </div>
