@@ -651,7 +651,7 @@ queue.display()
     resources: [
       {
         title: "GeeksforGeeks on Stack",
-        url: "https://www.geeksforgeeks.org/data-structures/stack/",
+        url: "https://www.geeksforgeeks.org/stack-data-structure/",
       },
     ],
   },
@@ -1135,7 +1135,7 @@ queue.display()
     resources: [
       {
         title: "GeeksforGeeks on Queue",
-        url: "https://www.geeksforgeeks.org/data-structures/queue/",
+        url: "https://www.geeksforgeeks.org/queue-data-structure/",
       },
     ],
   },
@@ -1575,7 +1575,7 @@ print("Search 15:", "Found" if ht.search(15) else "Not Found")`,
     resources: [
       {
         title: "GeeksforGeeks on Hash Tables",
-        url: "https://www.geeksforgeeks.org/hashing-data-structure/",
+        url: "https://www.geeksforgeeks.org/hash-table-data-structure/",
       },
     ],
   },

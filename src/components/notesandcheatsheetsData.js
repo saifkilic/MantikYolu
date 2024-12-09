@@ -69,26 +69,26 @@ export const notesAndCheatsheetData = [
   {
     id: 9,
     title: "CSS Cheat Sheet",
-    description: "Cheat Sheet for CSS by Code with Harry.",
+    description: "Cheat Sheet for CSS.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/CSS%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.thehoth.com/wp-content/uploads/onblastblog/CSS3-Cheat-Sheet.pdf", // Link to the detailed cheat sheet page
   },
   {
     id: 10,
     title: "Python Cheat Sheet",
-    description: "Cheat Sheet for Python by Code with Harry.",
+    description: "Cheat Sheet for Python.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/Python%20CheatSheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://cdn.codewithmosh.com/image/upload/v1702942822/cheat-sheets/python.pdf", // Link to the detailed cheat sheet page
   },
   {
     id: 11,
     title: "C Cheat Sheet",
-    description: "Cheat Sheet for C by Code with Harry.",
+    description: "Cheat Sheet for C.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/C%20Language%20CheatSheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/c-cheatsheet/", // Link to the detailed cheat sheet page
   },
   {
     id: 12,
@@ -96,7 +96,7 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for C++ by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/C%2B%2B%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/cpp-cheatsheet/", // Link to the detailed cheat sheet page
   },
   {
     id: 13,
@@ -104,7 +104,7 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for Java by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/HTML%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://lz284.org/doc/Java%20Cheat%20Sheet--Mosh%20Hamedani.pdf", // Link to the detailed cheat sheet page
   },
   {
     id: 14,
@@ -112,14 +112,14 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for Flask by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/Flask%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/flask-cheatsheet/", // Link to the detailed cheat sheet page
   },
   {
     id: 15,
     title: "HTML Cheat Sheet",
     description: "Cheat Sheet for HTML by Code with Harry.",
     type: "cheatsheet",
-    viewUrl: "/cheatsheets/html", // Link to the detailed cheat sheet page
+    viewUrl: "https://www.codewithharry.com/blogpost/html-cheatsheet/", // Link to the detailed cheat sheet page
   },
   {
     id: 16,
@@ -127,7 +127,7 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for JavaScript by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/JavaScript%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/javascript-cheatsheet/", // Link to the detailed cheat sheet page
   },
   {
     id: 17,
@@ -135,7 +135,7 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for MySQL by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/MySQL%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/mysql-cheatsheet/#google_vignette", // Link to the detailed cheat sheet page
   },
   {
     id: 18,
@@ -143,7 +143,7 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for Django by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/Django%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/django-cheatsheet/", // Link to the detailed cheat sheet page
   },
   {
     id: 19,
@@ -151,6 +151,6 @@ export const notesAndCheatsheetData = [
     description: "Cheat Sheet for PHP by Code with Harry.",
     type: "cheatsheet",
     viewUrl:
-      "https://github.com/ayeujjawalsingh/Cheat-Sheet/blob/master/Php%20Cheatsheet%20-%20CodeWithHarry.pdf", // Link to the detailed cheat sheet page
+      "https://www.codewithharry.com/blogpost/php-cheatsheet/", // Link to the detailed cheat sheet page
   },
 ];
